@@ -1,6 +1,13 @@
 import React from 'react'
 
 class Filters extends React.Component {
+  
+  handleClick = () => {
+    this.preventDefault()
+
+    
+  }
+
   render() {
     return (
       <div className="ui form">
